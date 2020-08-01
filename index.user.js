@@ -66,6 +66,7 @@ GM_addStyle('.c-topbar-wrapper{box-shadow: 0 0 0 #fcfcfe;}');
     $topImgAd.remove();
     $('#baidu-adv').remove();
     $('#follow').remove();
+    $('#webTrans').remove();    
 
     // window global function. It is the callback in the iframe
     window[injectEtymolineName] = function (event) {
@@ -120,7 +121,7 @@ GM_addStyle('.c-topbar-wrapper{box-shadow: 0 0 0 #fcfcfe;}');
     //        '<div class="hint">google.com ...</div>');
     if ($webTrans.length === 0) return; // maybe no result :)
 
-    $frameWrapper.insertBefore($webTrans);
+    // $frameWrapper.insertBefore($webTrans);
     // $googleFrameWrapper.insertBefore($webTrans);
 
     // set NProgress
