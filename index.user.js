@@ -70,7 +70,7 @@ GM_addStyle('.c-topbar-wrapper{box-shadow: 0 0 0 #fcfcfe;}');
     
     // Joe Ge
     $('.trans-container > ul').html($('.trans-container > ul').html().replace(new RegExp('<li>n.*人名.*<\/li>'), ''));
-
+    window.scrollBy(0, 88); // Scroll 88px to the top
 
     // window global function. It is the callback in the iframe
     window[injectEtymolineName] = function (event) {
