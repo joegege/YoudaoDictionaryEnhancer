@@ -66,7 +66,10 @@ GM_addStyle('.c-topbar-wrapper{box-shadow: 0 0 0 #fcfcfe;}');
     $topImgAd.remove();
     $('#baidu-adv').remove();
     $('#follow').remove();
-    $('#webTrans').remove();    
+    $('#webTrans').remove();  
+    $('#wordArticle').remove();    
+
+    
     
     // Joe Ge
     $('.trans-container > ul').html($('.trans-container > ul').html().replace(new RegExp('<li>n.*人名.*<\/li>'), ''));
